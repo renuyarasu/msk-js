@@ -1,8 +1,15 @@
 // MSK Javascript Bootcamp
 console.clear();
 
-let numbers = [0, 1, 2, 3, 4, 5];
-let newNumbers = [6, 7, 8, 9];
+// typeof
 
-let numberStore = [...numbers, ...newNumbers];
-console.log(numberStore);
+console.log(typeof 'abc'); // string
+console.log(typeof 123); // number
+console.log(typeof function () { }); // function
+console.log(typeof {}); // object
+console.log(typeof null); // object
+console.log(typeof NaN); // number
+console.log(typeof undefined); // undefined
+console.log(typeof true); // boolean
+
+console.log(typeof $);  // undefined/ jQuery function
